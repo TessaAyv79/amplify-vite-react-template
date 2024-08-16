@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Genel sayfa stili */
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				font-family: Arial, sans-serif;
+				background-color: #f4f4f4;
+				font-size: 14px; /* Yazı fontunu küçülttüm */
+			}
+			#wrapper {
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+			}
+			#main {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				padding: 20px;
+			}
+			.tab {
+				overflow: hidden;
+				border: 1px solid #ccc;
+				background-color: #f1f1f1;
+				margin-right: 20px;
+			}
+			.tab button {
+				background-color: inherit;
+				float: left;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				padding: 14px 16px;
+				transition: 0.3s;
+				font-size: 14px;
+			}
+			.tab button:hover {
+				background-color: #ddd;
+			}
+			.tab button.active {
+				background-color: #ccc;
+			}
+			.tabcontent {
+                display: none;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-top: none;
+                flex-grow: 1;
+                width: 75%; /* Tab içeriğini genişlettim */
+                max-height: auto; /* Maksimum yükseklik */
+                overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu ekler */
+            }
+			footer {
+				background-color: #333;
+				color: #fff;
+				padding: 20px;
+				text-align: center;
+			}
+			footer a {
+				color: #fff;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Massively</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">This is Massively</a></li>
+					<li class="active"><a href="generic.html">Generic Page</a></li>
+					<li><a href="elements.html">Elements Reference</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/tessa-nejla-ayvazoglu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://x.com/Kristal48712726" class="icon brands fa-twitter"><span class="label">X (Twitter)</span></a></li>
+					<li><a href="https://www.instagram.com/tessa_ayv/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.facebook.com/tessa.ayv" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://github.com/TessaAyv79" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.youtube.com/@tessanejlaayv.4561" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<article>
+					<header>
+						<h2>Tessa Nejla Ayvazoglu</h2>
+					</header>
+					<div class="resume-section">
+						<h3>Professional Summary</h3>
+						<p>Dynamic and results-oriented Software Engineer with 17 years of experience in the banking industry, specializing in mainframe technologies and currently advancing expertise in Artificial Intelligence (AI) and Machine Learning (ML). With a strong foundation in mathematical engineering and computer science, I am enhancing my skill set with a graduate certificate in AI and ML from Conestoga College. Renowned for excellent communication skills and a robust background in Cobol, CICS, JCL, ISO 390, and DB2. I bring hands-on experience from roles in Personal Banking, Commercial and Consumer Loans, Product Catalog and Pricing, and general accounting. Additionally, I have freelanced as a Data Scientist, blending practical machine learning applications with my engineering knowledge.</p>
+					</div>
+					<div class="resume-section">
+						<h3>Technical Skills</h3>
+						<p><strong>Mainframe and Software Development:</strong></p>
+						<ul>
+							<li><strong>Languages:</strong> Cobol, PL/I, JCL, TSO, CICS, ISPF, Db2, IMS, Java, C#, .Net</li>
+							<li><strong>Tools:</strong> IBM Rational Application Developer for WebSphere (RAD), VSAM file, SQL, Agile/Kanban/Waterfall, Scrum</li>
+							<li><strong>Web Development:</strong> HTML, CSS, JavaScript, Dreamweaver</li>
+							<li><strong>Embedded Systems:</strong> Arduino</li>
+						</ul>
+						<p><strong>AI, ML, and Data Science:</strong></p>
+						<ul>
+							<li><strong>Languages and Frameworks:</strong> Python, R, MATLAB</li>
+							<li><strong>Machine Learning:</strong> TensorFlow, Pytorch, scikit-learn, Reinforcement Learning</li>
+							<li><strong>Data Analysis and Mining:</strong> Weka, Data Mining</li>
+							<li><strong>Version Control and Collaboration:</strong> GitHub, Microsoft Azure DevOps, Docker</li>
+						</ul>
+						<p><strong>Additional Skills:</strong></p>
+						<ul>
+							<li><strong>Algorithm Development:</strong> Neuro Systems, Algorithm Design</li>
+							<li><strong>APIs and Testing:</strong> Postman, API Testing Tools</li>
+						</ul>
+					</div>
+					<div class="resume-section">
+						<h3>Professional Experience</h3>
+						<p><strong>TD Bank, Toronto, ON</strong> - Software Engineer (2022 - 2023)</p>
+						<ul>
+							<li>Played a crucial role in software and business process redesign projects within the Personal Banking system as both an analyst and developer.</li>
+							<li>Managed end-to-end product development and maintenance, ensuring alignment with legal requirements.</li>
+							<li>Partnered with the Release Management team for various deployments and defect management.</li>
+							<li>Translated complex business requirements into Functional and Detailed Design Documents.</li>
+							<li>Crafted Test Strategy and Test Plan documents, conducted testing phases, and supported User Acceptance Testing (UAT).</li>
+							<li>Provided technical support and optimization, addressing client issues using tools like Cobol, IMS, DB2, JCL, Jira, Agile Framework, Postman, IBM Developer for Z/OS, and Endevor.</li>
+						</ul>
+						<p><strong>AKBANK T.A.Ş., İstanbul, TR</strong> - Software Engineer (2002 - 2015)</p>
+						<ul>
+							<li>Acted as an analyst and developer for software and business process redesign projects in the domains of mortgages, consumer loans, and overdrafts.</li>
+							<li>Oversaw daily and online collection, accounting transactions, and product development initiatives.</li>
+							<li>Coordinated closely with the Release Management team, interpreted business requirements, and facilitated testing processes.</li>
+							<li>Delivered technical support and resolved customer issues using VMS, CICS, Cobol, DB2, Java, IBM Rational Application Developer, Business Objects, C#, and .Net.</li>
+						</ul>
+						<p><strong>GARANTİ Teknoloji T.A.Ş., Istanbul, TR</strong> - Software Engineer (2000 - 2002)</p>
+						<ul>
+							<li>Developed and enhanced new modules and features, managed daily and online accounting transactions.</li>
+							<li>Provided technical support and conducted problem analysis and resolution for production job failures.</li>
+							<li>Leveraged tools such as MS SQL Server, DB2, Oracle, Java, and CICS.</li>
+						</ul>
+					</div>
+					<div class="resume-section">
+						<h3>Education</h3>
+						<p><strong>Master's Degree in Computer Engineering</strong> - University of Toronto, Toronto, ON (2021)</p>
+						<p><strong>Bachelor's Degree in Mathematical Engineering</strong> - Boğaziçi University, Istanbul, TR (2000)</p>
+						<p><strong>Graduate Certificate in Artificial Intelligence and Machine Learning</strong> - Conestoga College, Toronto, ON (2022)</p>
+					</div>
+					<div class="resume-section">
+						<h3>Certifications</h3>
+						<ul>
+							<li>Certified in Python for Data Science, Coursera</li>
+							<li>Certified TensorFlow Developer, Google</li>
+							<li>Certified in Advanced Data Analysis Techniques, Udemy</li>
+						</ul>
+					</div>
+					<div class="resume-section">
+						<h3>Projects</h3>
+						<p><strong>Stock Seeker:</strong> A web application for real-time stock market analysis using ELR-ML techniques and integrating advanced data analysis features.</p>
+						<p><strong>Analyzing TikTok Data:</strong> A comprehensive study on TikTok user patterns, with a focus on data collection, preprocessing, and strategic implications.</p>
+						<p><strong>Deep Q-Learning for Pong:</strong> Implemented a DQN algorithm to train an AI agent for the PongDeterministic-v4 environment, addressing challenges in frame preprocessing and reward metrics.</p>
+					</div>
+				</article>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p>&copy; 2024 Tessa Nejla Ayvazoglu. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Tab Switch Script -->
+		<script>
+			function openTab(evt, tabName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(tabName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+		</script>
+
+	</body>
+</html>
